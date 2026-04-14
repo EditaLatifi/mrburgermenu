@@ -10,6 +10,41 @@
   },
   "categories": [
     {
+      "id": "mini-burgers",
+      "name": "Mini Burgers",
+      "hurl": "mini-burgers",
+      "items": [
+        {
+          "id": "mini-duo",
+          "name": "Duo",
+          "description": {
+            "cs": "Dva mini burgery s šťavnatým hovězím masem, sýrem, kyselými okurkami, čerstvým salátem a MrBurger omáčkou v nadýchané mini housce.",
+            "en": "Two mini burgers with juicy beef, cheese, pickles, fresh lettuce and our MrBurger sauce in fluffy mini buns."
+          },
+          "price": 239,
+          "image": "/mini-burgers-duo.png",
+          "weight": "",
+          "categoryId": "mini-burgers",
+          "position": 0,
+          "allergens": []
+        },
+        {
+          "id": "mini-trio",
+          "name": "Trio",
+          "description": {
+            "cs": "Tři mini burgery s šťavnatým hovězím masem, sýrem, kyselými okurkami, čerstvým salátem a MrBurger omáčkou v nadýchané mini housce.",
+            "en": "Three mini burgers with juicy beef, cheese, pickles, fresh lettuce and our MrBurger sauce in fluffy mini buns."
+          },
+          "price": 309,
+          "image": "/mini-burgers-trio.png",
+          "weight": "",
+          "categoryId": "mini-burgers",
+          "position": 1,
+          "allergens": []
+        }
+      ]
+    },
+    {
       "id": "mrburger-speciality",
       "name": "MrBurger Speciality",
       "hurl": "mrburger-speciality",
@@ -236,69 +271,6 @@
       ]
     },
     {
-      "id": "697364424dee2617b7398f0d",
-      "name": "Combo deals",
-      "hurl": "combo-deals",
-      "items": [
-        {
-          "id": "69738a82f8fbb5ed243ae4e8",
-          "name": "Chicken lover",
-          "description": {
-            "cs": "Klasický kuřecí hamburger připravený podle našeho originálního receptu – šťavnaté kuřecí maso, rozpuštěný sýr, kyselé okurky, čerstvá rajčata, salát a náš charakteristický MrBurger omáčka v měkké housce. Menu doplňují 3 šťavnatá kuřecí křidélka, křupavé hranolky a 1 omáčka dle výběru.",
-            "en": "Our classic chicken burger made to our original recipe — juicy chicken, melted cheese, pickles, fresh tomatoes, lettuce and our signature MrBurger sauce in a soft bun. Served with 3 juicy chicken wings, crispy fries and 1 sauce of your choice."
-          },
-          "price": 349,
-          "image": "https://cdn-media.choiceqr.com/prod-eat-mrburgers/menu/img_aboCE-cFKOn-NxvGw.jpeg",
-          "weight": "",
-          "categoryId": "697364424dee2617b7398f0d",
-          "position": 0,
-          "allergens": []
-        },
-        {
-          "id": "69738acbd78eaeb690e42dde",
-          "name": "Chicken mix MENU",
-          "description": {
-            "cs": "Šťavnaté 3 kuřecí křidélka obalená v bohaté, lesklé glazuře, dokonale měkká uvnitř a plná chuti. K tomu 4 křupavé kuřecí stripsy s výrazným zlatavým obalem, které při každém kousnutí krásně křupnou a uvnitř zůstávají šťavnaté. Celé menu doplňují horké, dozlatova smažené hranolky a 2 lahodné omáčky dle výběru.",
-            "en": "3 juicy chicken wings coated in a rich, glossy glaze, perfectly tender inside and full of flavor. Plus 4 crispy chicken strips with a bold golden coating, crunchy outside and juicy inside. Served with hot golden fries and 2 delicious sauces of your choice."
-          },
-          "price": 209,
-          "image": "https://cdn-media.choiceqr.com/prod-eat-mrburgers/menu/img_BJueC-ISHRH-Pvdic.jpeg",
-          "weight": "",
-          "categoryId": "697364424dee2617b7398f0d",
-          "position": 1,
-          "allergens": []
-        },
-        {
-          "id": "69738b7b738238f4069a4079",
-          "name": "Wings Bucket",
-          "description": {
-            "cs": "Pořádná porce 20 kuřecích křidélek v mixu čtyř glazur – sladko-slaná teriyaki, jemně pikantní buffalo, domací BBQ a výrazná korejská omáčka. Šťavnatá uvnitř, krásně obalená glazurou a plná chuti v každém soustu.",
-            "en": "A hearty portion of 20 chicken wings with four glazes — sweet-savory teriyaki, mild Buffalo, homemade BBQ and bold Korean. Juicy inside, beautifully glazed and packed with flavor in every bite."
-          },
-          "price": 319,
-          "image": "https://cdn-media.choiceqr.com/prod-eat-mrburgers/menu/img_blHOZ-SqaUu-PnpBI.jpeg",
-          "weight": "",
-          "categoryId": "697364424dee2617b7398f0d",
-          "position": 2,
-          "allergens": []
-        },
-        {
-          "id": "69738bce941b45beecd7b407",
-          "name": "Combo for two !",
-          "description": {
-            "cs": "Klasický hovězí a kuřecí hamburger připravené podle našeho receptu – šťavnaté maso, rozpuštěný sýr, kyselé okurky, čerstvá rajčata, salát a výrazná MrBurger omáčka v měkké housce. Menu doplňují 4 kuřecí křidélka, 2 křupavé stripsy, zlatavé hranolky a 2 omáčky dle vlastního výběru.",
-            "en": "A classic beef and chicken burger made to our recipe — juicy meat, melted cheese, pickles, fresh tomatoes, lettuce and our bold MrBurger sauce in a soft bun. Served with 4 chicken wings, 2 crispy strips, golden fries and 2 sauces of your choice."
-          },
-          "price": 679,
-          "image": "https://cdn-media.choiceqr.com/prod-eat-mrburgers/menu/img_Depvn-PdOkG-eakSV.jpeg",
-          "weight": "",
-          "categoryId": "697364424dee2617b7398f0d",
-          "position": 3,
-          "allergens": []
-        }
-      ]
-    },
-    {
       "id": "bowls-and-salads",
       "name": "Bowls and Salads",
       "hurl": "bowls-and-salads",
@@ -424,41 +396,6 @@
       ]
     },
     {
-      "id": "69207422090168e1c7da9023",
-      "name": "Fries",
-      "hurl": "fries",
-      "items": [
-        {
-          "id": "69207423d4e9b4346b5a88d7",
-          "name": "Single Fries",
-          "description": {
-            "cs": "",
-            "en": ""
-          },
-          "price": 69,
-          "image": "https://mr-burger.cz/wp-content/uploads/2026/01/delicious-fries-studio-1.jpg",
-          "weight": "",
-          "categoryId": "69207422090168e1c7da9023",
-          "position": 0,
-          "allergens": []
-        },
-        {
-          "id": "69207423d4e9b4346b5a88dc",
-          "name": "Double Fries",
-          "description": {
-            "cs": "",
-            "en": ""
-          },
-          "price": 109,
-          "image": "https://mr-burger.cz/wp-content/uploads/2026/01/delicious-fries-studio-1.jpg",
-          "weight": "",
-          "categoryId": "69207422090168e1c7da9023",
-          "position": 1,
-          "allergens": []
-        }
-      ]
-    },
-    {
       "id": "69207422090168e1c7da902b",
       "name": "Wings & Strips",
       "hurl": "wings-strips",
@@ -547,6 +484,41 @@
       ]
     },
     {
+      "id": "69207422090168e1c7da9023",
+      "name": "Fries",
+      "hurl": "fries",
+      "items": [
+        {
+          "id": "69207423d4e9b4346b5a88d7",
+          "name": "Single Fries",
+          "description": {
+            "cs": "",
+            "en": ""
+          },
+          "price": 69,
+          "image": "https://mr-burger.cz/wp-content/uploads/2026/01/delicious-fries-studio-1.jpg",
+          "weight": "",
+          "categoryId": "69207422090168e1c7da9023",
+          "position": 0,
+          "allergens": []
+        },
+        {
+          "id": "69207423d4e9b4346b5a88dc",
+          "name": "Double Fries",
+          "description": {
+            "cs": "",
+            "en": ""
+          },
+          "price": 109,
+          "image": "https://mr-burger.cz/wp-content/uploads/2026/01/delicious-fries-studio-1.jpg",
+          "weight": "",
+          "categoryId": "69207422090168e1c7da9023",
+          "position": 1,
+          "allergens": []
+        }
+      ]
+    },
+    {
       "id": "69207422090168e1c7da9027",
       "name": "Sauces",
       "hurl": "sauces",
@@ -570,24 +542,6 @@
           ]
         },
         {
-          "id": "69207423d4e9b4346b5a88f4",
-          "name": "Spicy Chilly",
-          "description": {
-            "cs": "",
-            "en": ""
-          },
-          "price": 39,
-          "image": null,
-          "weight": "",
-          "categoryId": "69207422090168e1c7da9027",
-          "position": 1,
-          "allergens": [
-            3,
-            7,
-            10
-          ]
-        },
-        {
           "id": "69207423d4e9b4346b5a88f7",
           "name": "Spicy Mayo",
           "description": {
@@ -598,7 +552,7 @@
           "image": null,
           "weight": "",
           "categoryId": "69207422090168e1c7da9027",
-          "position": 2,
+          "position": 1,
           "allergens": [
             3,
             7,
@@ -616,7 +570,7 @@
           "image": null,
           "weight": "",
           "categoryId": "69207422090168e1c7da9027",
-          "position": 3,
+          "position": 2,
           "allergens": [
             3,
             7,
@@ -634,25 +588,7 @@
           "image": null,
           "weight": "",
           "categoryId": "69207422090168e1c7da9027",
-          "position": 4,
-          "allergens": [
-            3,
-            7,
-            10
-          ]
-        },
-        {
-          "id": "69207423d4e9b4346b5a88f6",
-          "name": "Korean",
-          "description": {
-            "cs": "",
-            "en": ""
-          },
-          "price": 39,
-          "image": null,
-          "weight": "",
-          "categoryId": "69207422090168e1c7da9027",
-          "position": 5,
+          "position": 3,
           "allergens": [
             3,
             7,
@@ -670,7 +606,7 @@
           "image": null,
           "weight": "",
           "categoryId": "69207422090168e1c7da9027",
-          "position": 6,
+          "position": 4,
           "allergens": [
             3,
             7,
@@ -678,6 +614,167 @@
           ]
         }
       ]
+    },
+    {
+      "id": "drinks",
+      "name": "Drinks",
+      "hurl": "drinks",
+      "items": [
+        {
+          "id": "drink-raspberry-matcha",
+          "name": "Raspberry Matcha",
+          "description": {
+            "cs": "",
+            "en": ""
+          },
+          "price": 119,
+          "image": null,
+          "weight": "",
+          "categoryId": "drinks",
+          "position": 0,
+          "allergens": [],
+          "group": "Cold Matcha"
+        },
+        {
+          "id": "drink-mango-matcha",
+          "name": "Mango Matcha",
+          "description": {
+            "cs": "",
+            "en": ""
+          },
+          "price": 119,
+          "image": null,
+          "weight": "",
+          "categoryId": "drinks",
+          "position": 1,
+          "allergens": [],
+          "group": "Cold Matcha"
+        },
+        {
+          "id": "drink-espresso",
+          "name": "Espresso",
+          "description": {
+            "cs": "",
+            "en": ""
+          },
+          "price": 49,
+          "image": null,
+          "weight": "",
+          "categoryId": "drinks",
+          "position": 2,
+          "allergens": [],
+          "group": "Coffee"
+        },
+        {
+          "id": "drink-lungo",
+          "name": "Lungo",
+          "description": {
+            "cs": "",
+            "en": ""
+          },
+          "price": 55,
+          "image": null,
+          "weight": "",
+          "categoryId": "drinks",
+          "position": 3,
+          "allergens": [],
+          "group": "Coffee"
+        },
+        {
+          "id": "drink-cappuccino",
+          "name": "Cappuccino",
+          "description": {
+            "cs": "",
+            "en": ""
+          },
+          "price": 79,
+          "image": null,
+          "weight": "",
+          "categoryId": "drinks",
+          "position": 4,
+          "allergens": [],
+          "group": "Coffee"
+        },
+        {
+          "id": "drink-passion-mango",
+          "name": "Passion Mango",
+          "description": {
+            "cs": "",
+            "en": ""
+          },
+          "price": 105,
+          "image": null,
+          "weight": "",
+          "categoryId": "drinks",
+          "position": 5,
+          "allergens": [],
+          "group": "Homemade Lemonades"
+        },
+        {
+          "id": "drink-raspberry-mojito",
+          "name": "Raspberry Mojito",
+          "description": {
+            "cs": "",
+            "en": ""
+          },
+          "price": 105,
+          "image": null,
+          "weight": "",
+          "categoryId": "drinks",
+          "position": 6,
+          "allergens": [],
+          "group": "Homemade Lemonades"
+        },
+        {
+          "id": "drink-ms-lychee",
+          "name": "Ms Lychee",
+          "description": {
+            "cs": "",
+            "en": ""
+          },
+          "price": 105,
+          "image": null,
+          "weight": "",
+          "categoryId": "drinks",
+          "position": 7,
+          "allergens": [],
+          "group": "Homemade Lemonades"
+        },
+        {
+          "id": "drink-kokosov-shake-limon-da",
+          "name": "Kokosová Shake Limonáda",
+          "description": {
+            "cs": "",
+            "en": ""
+          },
+          "price": 115,
+          "image": null,
+          "weight": "",
+          "categoryId": "drinks",
+          "position": 8,
+          "allergens": [],
+          "group": "Homemade Lemonades"
+        },
+        {
+          "id": "drink-yuzu-mandarinka",
+          "name": "Yuzu Mandarinka",
+          "description": {
+            "cs": "",
+            "en": ""
+          },
+          "price": 105,
+          "image": null,
+          "weight": "",
+          "categoryId": "drinks",
+          "position": 9,
+          "allergens": [],
+          "group": "Homemade Lemonades"
+        }
+      ],
+      "note": {
+        "cs": "Další nápoje najdete v lednici u kasy.",
+        "en": "For more drinks, please check the fridge by the cash register."
+      }
     }
   ]
 }

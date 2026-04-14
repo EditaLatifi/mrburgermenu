@@ -15,6 +15,7 @@ export type MenuItem = {
   categoryId: string;
   position: number;
   allergens?: number[];
+  group?: string;
 };
 
 export type MenuCategory = {
@@ -22,6 +23,7 @@ export type MenuCategory = {
   name: string;
   hurl: string;
   items: MenuItem[];
+  note?: LocalizedText;
 };
 
 export type MenuData = {

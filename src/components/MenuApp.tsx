@@ -179,31 +179,53 @@ export default function MenuApp({ data }: Props) {
                 </div>
               ) : (
                 <ul className="divide-y divide-card-border overflow-hidden rounded-2xl border border-card-border bg-card">
-                  {cat.items.map((item) => (
-                    <li
-                      key={item.id}
-                      className="flex items-center justify-between gap-4 px-5 py-4"
-                    >
-                      <div className="min-w-0">
-                        <div className="font-semibold">
-                          {item.name}
-                          <AllergenTags
-                            allergens={item.allergens}
-                            locale={locale}
-                          />
-                        </div>
-                        {item.description[locale] && (
-                          <div className="mt-0.5 text-sm text-muted">
-                            {item.description[locale]}
+                  {cat.items.flatMap((item, i) => {
+                    const prev = cat.items[i - 1];
+                    const showHeader =
+                      item.group && item.group !== prev?.group;
+                    const rows = [];
+                    if (showHeader) {
+                      rows.push(
+                        <li
+                          key={`hdr-${cat.id}-${item.group}`}
+                          className="bg-background/40 px-5 py-2 text-xs font-bold uppercase tracking-wider text-brand"
+                        >
+                          {item.group}
+                        </li>,
+                      );
+                    }
+                    rows.push(
+                      <li
+                        key={item.id}
+                        className="flex items-center justify-between gap-4 px-5 py-4"
+                      >
+                        <div className="min-w-0">
+                          <div className="font-semibold">
+                            {item.name}
+                            <AllergenTags
+                              allergens={item.allergens}
+                              locale={locale}
+                            />
                           </div>
-                        )}
-                      </div>
-                      <span className="shrink-0 rounded-full bg-brand/15 px-3 py-1 text-sm font-bold text-brand">
-                        {item.price} {restaurant.currency}
-                      </span>
-                    </li>
-                  ))}
+                          {item.description[locale] && (
+                            <div className="mt-0.5 text-sm text-muted">
+                              {item.description[locale]}
+                            </div>
+                          )}
+                        </div>
+                        <span className="shrink-0 rounded-full bg-brand/15 px-3 py-1 text-sm font-bold text-brand">
+                          {item.price} {restaurant.currency}
+                        </span>
+                      </li>,
+                    );
+                    return rows;
+                  })}
                 </ul>
+              )}
+              {cat.note?.[locale] && (
+                <p className="mt-4 text-sm italic text-muted">
+                  {cat.note[locale]}
+                </p>
               )}
             </section>
           );
