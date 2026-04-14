@@ -1,0 +1,683 @@
+{
+  "restaurant": {
+    "name": "MrBurger",
+    "phone": "+420602545888",
+    "email": "info@mr-burger.cz",
+    "address": "Komunardů 1046/19, 170 00 Praha 7-Holešovice, Czechia",
+    "currency": "Kč",
+    "primaryColor": "#FFA11B",
+    "hero": "https://cdn-media.choiceqr.com/prod-eat-mrburgers/rNMlDCf-CvnTuIE-lOjIGyv.jpeg"
+  },
+  "categories": [
+    {
+      "id": "mrburger-speciality",
+      "name": "MrBurger Speciality",
+      "hurl": "mrburger-speciality",
+      "items": [
+        {
+          "id": "shrimps-burger",
+          "name": "Shrimps Burger",
+          "description": {
+            "cs": "Krevetový burger s avokádem, salátovým mixem a rajčetem, doplněný sladkou chilli nebo pikantní majonézou a křupavými rýžovými chipsy pro svěží a křupavý zážitek.",
+            "en": "Shrimp burger with avocado, mixed greens and tomato, topped with sweet chili or spicy mayo and crispy rice chips for a fresh, crunchy experience."
+          },
+          "price": 269,
+          "image": "https://mr-burger.cz/wp-content/uploads/2026/01/Shrimp-burger.png",
+          "weight": "",
+          "categoryId": "mrburger-speciality",
+          "position": 0,
+          "allergens": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            7,
+            10,
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "id": "69207422090168e1c7da9029",
+      "name": "Beef burgers",
+      "hurl": "beef-burgers",
+      "items": [
+        {
+          "id": "69207423d4e9b4346b5a88d6",
+          "name": "Classic Cheeseburger",
+          "description": {
+            "cs": "Dokonale šťavnaté maso, rozpuštěný sýr, kyselé okurky, čerstvá rajčata a mix salát, vše propojené výraznou MrBurger omáčkou v měkké, nadýchané housce. Klasika, která nikdy nezklame – plná chuti v každém soustu.",
+            "en": "Perfectly juicy beef, melted cheese, pickles, fresh tomatoes and mixed greens, all brought together with our bold MrBurger sauce in a soft, fluffy bun. A classic that never disappoints — full of flavor in every bite."
+          },
+          "price": 229,
+          "image": "https://mr-burger.cz/wp-content/uploads/2026/01/Classic-Cheeseburger.png",
+          "weight": "",
+          "categoryId": "69207422090168e1c7da9029",
+          "position": 0,
+          "allergens": [
+            1,
+            3,
+            7,
+            10
+          ]
+        },
+        {
+          "id": "69207423d4e9b4346b5a88d8",
+          "name": "Bacon Lovers",
+          "description": {
+            "cs": "Šťavnaté hovězí maso, rozpuštěné plátky čedaru a goudy, poctivá křupavá slanina, mix salát a krémová slaninková majonéza v měkké, nadýchané housce. Ideální volba pro všechny milovníky slaniny a výrazné chuti.",
+            "en": "Juicy beef, melted slices of cheddar and gouda, honest crispy bacon, mixed greens and creamy bacon mayo in a soft, fluffy bun. The perfect pick for anyone who loves bold bacon flavor."
+          },
+          "price": 239,
+          "image": "https://mr-burger.cz/wp-content/uploads/2026/01/Bacon-Lover.png",
+          "weight": "",
+          "categoryId": "69207422090168e1c7da9029",
+          "position": 1,
+          "allergens": [
+            1,
+            3,
+            7
+          ]
+        },
+        {
+          "id": "69207423d4e9b4346b5a88db",
+          "name": "Premium Beef",
+          "description": {
+            "cs": "Z prvotřídního hovězího masa, doplněný plátky rozpuštěného čedaru a goudy, poctivou křupavou slaninou, nakládanými okurkami, čerstvým rajčetem a mix salátem. Vše propojené naší exkluzivní MrBurger omáčkou v měkké housce.",
+            "en": "Made with premium beef, topped with melted cheddar and gouda, crispy bacon, pickles, fresh tomato and mixed greens. All brought together with our exclusive MrBurger sauce in a soft bun."
+          },
+          "price": 239,
+          "image": "https://mr-burger.cz/wp-content/uploads/2026/01/Premium-Beef.png",
+          "weight": "",
+          "categoryId": "69207422090168e1c7da9029",
+          "position": 2,
+          "allergens": [
+            1,
+            3,
+            7,
+            10
+          ]
+        },
+        {
+          "id": "69207423d4e9b4346b5a88e2",
+          "name": "Mr Kimchi",
+          "description": {
+            "cs": "Šťavnatý burger v čerstvém pečivu s hovězím masem, rozpuštěným sýrem cheddar a goudou. Doplněný vejcem, domácím kimchi, čerstvým salátem, jemnou majonézou a výraznou korejskou omáčkou, která dodává burgeru jedinečný chuťový zážitek. Perfektní kombinace svěžesti, krémovosti a lehké pikantnosti.",
+            "en": "A juicy burger in a fresh bun with beef, melted cheddar and gouda. Topped with egg, homemade kimchi, fresh greens, smooth mayo and a bold Korean sauce that gives this burger a truly unique flavor. A perfect balance of freshness, creaminess and gentle heat."
+          },
+          "price": 249,
+          "image": "https://mr-burger.cz/wp-content/uploads/2026/01/Mr-Kimchi.png",
+          "weight": "",
+          "categoryId": "69207422090168e1c7da9029",
+          "position": 3,
+          "allergens": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            7,
+            10,
+            11
+          ]
+        },
+        {
+          "id": "69207423d4e9b4346b5a88e1",
+          "name": "Spicy Beef",
+          "description": {
+            "cs": "",
+            "en": ""
+          },
+          "price": 229,
+          "image": "https://mr-burger.cz/wp-content/uploads/2026/01/Spicy-Beef.png",
+          "weight": "",
+          "categoryId": "69207422090168e1c7da9029",
+          "position": 4,
+          "allergens": [
+            1,
+            3,
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "69207422090168e1c7da9025",
+      "name": "Chicken Burgers",
+      "hurl": "chicken-burgers",
+      "items": [
+        {
+          "id": "69207423d4e9b4346b5a88de",
+          "name": "Classic Fried Chicken",
+          "description": {
+            "cs": "Křehké kuřecí prsíčko podle speciální receptury, plátky sýra gouda, nakládané okurky, čerstvé rajče, zelený salát, lahodná MrBurger omáčka.",
+            "en": "Tender fried chicken breast made with our special recipe, slices of gouda, pickles, fresh tomato, lettuce and our signature MrBurger sauce."
+          },
+          "price": 219,
+          "image": "https://mr-burger.cz/wp-content/uploads/2026/01/Classic-Fried-Chicken.png",
+          "weight": "",
+          "categoryId": "69207422090168e1c7da9025",
+          "position": 0,
+          "allergens": []
+        },
+        {
+          "id": "69207423d4e9b4346b5a88da",
+          "name": "Grilled BBQ Chicken",
+          "description": {
+            "cs": "Šťavnatá kuřecí prsa z grilu, rozpuštěný čedar, čerstvý salát a křupavé okurky, doplněné kombinací domácí BBQ omáčky a krémové majonézy.",
+            "en": "Juicy grilled chicken breast, melted cheddar, fresh greens and crispy pickles, topped with a combination of our homemade BBQ sauce and creamy mayo."
+          },
+          "price": 219,
+          "image": "https://mr-burger.cz/wp-content/uploads/2026/01/Grilled-BBQ-Chicken.png",
+          "weight": "",
+          "categoryId": "69207422090168e1c7da9025",
+          "position": 1,
+          "allergens": []
+        },
+        {
+          "id": "69207423d4e9b4346b5a88d4",
+          "name": "Honey Mustard Fried Chicken",
+          "description": {
+            "cs": "Křehké kuřecí prsíčko podle speciální receptury, plátky sýra gouda, nakládané okurky, mix salát, lahodná medovo horčicová omáčka.",
+            "en": "Tender fried chicken breast made with our special recipe, slices of gouda, pickles, mixed greens and our delicious honey mustard sauce."
+          },
+          "price": 229,
+          "image": "https://mr-burger.cz/wp-content/uploads/2026/01/Honey-Mustard-Fried-Chicken.png",
+          "weight": "",
+          "categoryId": "69207422090168e1c7da9025",
+          "position": 2,
+          "allergens": []
+        },
+        {
+          "id": "69207423d4e9b4346b5a88df",
+          "name": "Korean Fried Chicken",
+          "description": {
+            "cs": "Šťavnaté kuřecí maso podle naší vlastní receptury, rozpuštěný čedar, čerstvý salát a rajče, doplněné svěžím kimchislawem, křupavými okurkami, krémovou majonézou a výraznou sladkopálivou korejskou omáčkou.",
+            "en": "Juicy chicken made with our own recipe, melted cheddar, fresh greens and tomato, topped with fresh kimchi slaw, crispy pickles, creamy mayo and a bold sweet-and-spicy Korean sauce."
+          },
+          "price": 249,
+          "image": "https://mr-burger.cz/wp-content/uploads/2026/01/Korean-Fried-Chicken.png",
+          "weight": "",
+          "categoryId": "69207422090168e1c7da9025",
+          "position": 3,
+          "allergens": []
+        },
+        {
+          "id": "69207423d4e9b4346b5a88e0",
+          "name": "BBQ Fried Chicken",
+          "description": {
+            "cs": "Křupavé smažené kuřecí maso podle naší vlastní receptury, rozpuštěné sýry čedar i gouda, čerstvé rajče a křupavý salát, doplněné kombinací domácí BBQ omáčky a krémové majonézy.",
+            "en": "Crispy fried chicken made with our own recipe, melted cheddar and gouda, fresh tomato and crunchy lettuce, topped with a combination of our homemade BBQ sauce and creamy mayo."
+          },
+          "price": 239,
+          "image": "https://mr-burger.cz/wp-content/uploads/2026/01/BBQ-Fried-Chicken.png",
+          "weight": "",
+          "categoryId": "69207422090168e1c7da9025",
+          "position": 4,
+          "allergens": []
+        },
+        {
+          "id": "69207423d4e9b4346b5a88dd",
+          "name": "Spicy Fried Chicken",
+          "description": {
+            "cs": "Křupavé smažené kuřecí maso podle naší vlastní receptury, rozpuštěné plátky čedaru, nakládané okurky a čerstvé rajče, vše doplněné jemně pikantní spicy mayo omáčkou.",
+            "en": "Crispy fried chicken made with our own recipe, melted cheddar slices, pickles and fresh tomato, all finished with our gently spicy mayo sauce."
+          },
+          "price": 239,
+          "image": "https://mr-burger.cz/wp-content/uploads/2026/01/Spicy-Fried-Chicken.png",
+          "weight": "",
+          "categoryId": "69207422090168e1c7da9025",
+          "position": 5,
+          "allergens": []
+        }
+      ]
+    },
+    {
+      "id": "697364424dee2617b7398f0d",
+      "name": "Combo deals",
+      "hurl": "combo-deals",
+      "items": [
+        {
+          "id": "69738a82f8fbb5ed243ae4e8",
+          "name": "Chicken lover",
+          "description": {
+            "cs": "Klasický kuřecí hamburger připravený podle našeho originálního receptu – šťavnaté kuřecí maso, rozpuštěný sýr, kyselé okurky, čerstvá rajčata, salát a náš charakteristický MrBurger omáčka v měkké housce. Menu doplňují 3 šťavnatá kuřecí křidélka, křupavé hranolky a 1 omáčka dle výběru.",
+            "en": "Our classic chicken burger made to our original recipe — juicy chicken, melted cheese, pickles, fresh tomatoes, lettuce and our signature MrBurger sauce in a soft bun. Served with 3 juicy chicken wings, crispy fries and 1 sauce of your choice."
+          },
+          "price": 349,
+          "image": "https://cdn-media.choiceqr.com/prod-eat-mrburgers/menu/img_aboCE-cFKOn-NxvGw.jpeg",
+          "weight": "",
+          "categoryId": "697364424dee2617b7398f0d",
+          "position": 0,
+          "allergens": []
+        },
+        {
+          "id": "69738acbd78eaeb690e42dde",
+          "name": "Chicken mix MENU",
+          "description": {
+            "cs": "Šťavnaté 3 kuřecí křidélka obalená v bohaté, lesklé glazuře, dokonale měkká uvnitř a plná chuti. K tomu 4 křupavé kuřecí stripsy s výrazným zlatavým obalem, které při každém kousnutí krásně křupnou a uvnitř zůstávají šťavnaté. Celé menu doplňují horké, dozlatova smažené hranolky a 2 lahodné omáčky dle výběru.",
+            "en": "3 juicy chicken wings coated in a rich, glossy glaze, perfectly tender inside and full of flavor. Plus 4 crispy chicken strips with a bold golden coating, crunchy outside and juicy inside. Served with hot golden fries and 2 delicious sauces of your choice."
+          },
+          "price": 209,
+          "image": "https://cdn-media.choiceqr.com/prod-eat-mrburgers/menu/img_BJueC-ISHRH-Pvdic.jpeg",
+          "weight": "",
+          "categoryId": "697364424dee2617b7398f0d",
+          "position": 1,
+          "allergens": []
+        },
+        {
+          "id": "69738b7b738238f4069a4079",
+          "name": "Wings Bucket",
+          "description": {
+            "cs": "Pořádná porce 20 kuřecích křidélek v mixu čtyř glazur – sladko-slaná teriyaki, jemně pikantní buffalo, domací BBQ a výrazná korejská omáčka. Šťavnatá uvnitř, krásně obalená glazurou a plná chuti v každém soustu.",
+            "en": "A hearty portion of 20 chicken wings with four glazes — sweet-savory teriyaki, mild Buffalo, homemade BBQ and bold Korean. Juicy inside, beautifully glazed and packed with flavor in every bite."
+          },
+          "price": 319,
+          "image": "https://cdn-media.choiceqr.com/prod-eat-mrburgers/menu/img_blHOZ-SqaUu-PnpBI.jpeg",
+          "weight": "",
+          "categoryId": "697364424dee2617b7398f0d",
+          "position": 2,
+          "allergens": []
+        },
+        {
+          "id": "69738bce941b45beecd7b407",
+          "name": "Combo for two !",
+          "description": {
+            "cs": "Klasický hovězí a kuřecí hamburger připravené podle našeho receptu – šťavnaté maso, rozpuštěný sýr, kyselé okurky, čerstvá rajčata, salát a výrazná MrBurger omáčka v měkké housce. Menu doplňují 4 kuřecí křidélka, 2 křupavé stripsy, zlatavé hranolky a 2 omáčky dle vlastního výběru.",
+            "en": "A classic beef and chicken burger made to our recipe — juicy meat, melted cheese, pickles, fresh tomatoes, lettuce and our bold MrBurger sauce in a soft bun. Served with 4 chicken wings, 2 crispy strips, golden fries and 2 sauces of your choice."
+          },
+          "price": 679,
+          "image": "https://cdn-media.choiceqr.com/prod-eat-mrburgers/menu/img_Depvn-PdOkG-eakSV.jpeg",
+          "weight": "",
+          "categoryId": "697364424dee2617b7398f0d",
+          "position": 3,
+          "allergens": []
+        }
+      ]
+    },
+    {
+      "id": "bowls-and-salads",
+      "name": "Bowls and Salads",
+      "hurl": "bowls-and-salads",
+      "items": [
+        {
+          "id": "69207423d4e9b4346b5a88ea",
+          "name": "Chicken Bowl",
+          "description": {
+            "cs": "Grilované kuře na nadýchané rýži s krémovým avokádem, mořskými řasami wakame, edamame, sladkou kukuřicí, cherry rajčaty a křupavým coleslawem, doplněné teriyaki majonézou a sezamem.",
+            "en": "Grilled chicken on fluffy rice with creamy avocado, wakame seaweed, edamame, sweet corn, cherry tomatoes and crispy coleslaw, topped with teriyaki mayo and sesame."
+          },
+          "price": 239,
+          "image": "https://mr-burger.cz/wp-content/uploads/2026/01/Chicken-Bowl.png",
+          "weight": "",
+          "categoryId": "bowls-and-salads",
+          "position": 0,
+          "allergens": [
+            1,
+            7,
+            11
+          ]
+        },
+        {
+          "id": "69207423d4e9b4346b5a88ec",
+          "name": "Fried Chicken Bowl",
+          "description": {
+            "cs": "Křupavé smažené kuře na rýži s avokádem, wakame, edamame, kukuřicí, cherry rajčaty a coleslawem, doplněné teriyaki majonézou a sezamem pro sladko-slaný šmrnc.",
+            "en": "Crispy fried chicken on rice with avocado, wakame, edamame, corn, cherry tomatoes and coleslaw, topped with teriyaki mayo and sesame for a sweet-savory kick."
+          },
+          "price": 249,
+          "image": "https://mr-burger.cz/wp-content/uploads/2026/01/Fried-chicken-bowl.png",
+          "weight": "",
+          "categoryId": "bowls-and-salads",
+          "position": 1,
+          "allergens": [
+            1,
+            7,
+            11
+          ]
+        },
+        {
+          "id": "69207423d4e9b4346b5a88eb",
+          "name": "Shrimp Bowl",
+          "description": {
+            "cs": "Šťavnaté grilované krevety na rýži s avokádem, wakame, edamame, kukuřicí, cherry rajčaty a coleslawem, přelité sladkou chilli majonézou a posypané sezamem.",
+            "en": "Juicy grilled prawns on rice with avocado, wakame, edamame, corn, cherry tomatoes and coleslaw, drizzled with sweet chili mayo and topped with sesame."
+          },
+          "price": 259,
+          "image": "https://mr-burger.cz/wp-content/uploads/2026/01/Shrimp-Bowl.png",
+          "weight": "",
+          "categoryId": "bowls-and-salads",
+          "position": 2,
+          "allergens": [
+            1,
+            2,
+            4,
+            6,
+            7,
+            11
+          ]
+        },
+        {
+          "id": "salad-chicken",
+          "name": "Chicken Salad",
+          "description": {
+            "cs": "Baby špenát s grilovaným kuřetem, avokádem, wakame, edamame, kukuřicí, cherry rajčaty a křupavými rýžovými chipsy, promíchaný s medovo-hořčičným dresinkem a olivovým olejem.",
+            "en": "Baby spinach with grilled chicken, avocado, wakame, edamame, corn, cherry tomatoes and crispy rice chips, tossed with honey mustard dressing and olive oil."
+          },
+          "price": 215,
+          "image": "https://mr-burger.cz/wp-content/uploads/2026/01/ChatGPT-Image-Jan-18-2026-03_15_42-PM-700x456.png",
+          "weight": "",
+          "categoryId": "bowls-and-salads",
+          "position": 3,
+          "allergens": [
+            3,
+            7,
+            10,
+            11
+          ]
+        },
+        {
+          "id": "salad-prawns",
+          "name": "Prawns Salad",
+          "description": {
+            "cs": "Baby špenát s grilovanými krevetami, avokádem, wakame, edamame, kukuřicí, cherry rajčaty a křupavými rýžovými chipsy, doplněný teriyaki majonézou a olivovým olejem.",
+            "en": "Baby spinach with grilled prawns, avocado, wakame, edamame, corn, cherry tomatoes and crispy rice chips, finished with teriyaki mayo and olive oil."
+          },
+          "price": 229,
+          "image": "https://mr-burger.cz/wp-content/uploads/2026/01/shrimp-salad.png",
+          "weight": "",
+          "categoryId": "bowls-and-salads",
+          "position": 4,
+          "allergens": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            7,
+            11
+          ]
+        },
+        {
+          "id": "salad-avocado",
+          "name": "Avocado Salad",
+          "description": {
+            "cs": "Baby špenát s krémovým avokádem, wakame, edamame, kukuřicí, cherry rajčaty a křupavými rýžovými chipsy, doplněný pikantní majonézou a kešu oříšky pro extra křupavost.",
+            "en": "Baby spinach with creamy avocado, wakame, edamame, corn, cherry tomatoes and crispy rice chips, finished with spicy mayo and cashew nuts for extra crunch."
+          },
+          "price": 209,
+          "image": "https://mr-burger.cz/wp-content/uploads/2026/01/ChatGPT-Image-Jan-25-2026-12_57_04-PM-700x456.png",
+          "weight": "",
+          "categoryId": "bowls-and-salads",
+          "position": 5,
+          "allergens": [
+            3,
+            4,
+            7,
+            8,
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "id": "69207422090168e1c7da9023",
+      "name": "Fries",
+      "hurl": "fries",
+      "items": [
+        {
+          "id": "69207423d4e9b4346b5a88d7",
+          "name": "Single Fries",
+          "description": {
+            "cs": "",
+            "en": ""
+          },
+          "price": 69,
+          "image": "https://mr-burger.cz/wp-content/uploads/2026/01/delicious-fries-studio-1.jpg",
+          "weight": "",
+          "categoryId": "69207422090168e1c7da9023",
+          "position": 0,
+          "allergens": []
+        },
+        {
+          "id": "69207423d4e9b4346b5a88dc",
+          "name": "Double Fries",
+          "description": {
+            "cs": "",
+            "en": ""
+          },
+          "price": 109,
+          "image": "https://mr-burger.cz/wp-content/uploads/2026/01/delicious-fries-studio-1.jpg",
+          "weight": "",
+          "categoryId": "69207422090168e1c7da9023",
+          "position": 1,
+          "allergens": []
+        }
+      ]
+    },
+    {
+      "id": "69207422090168e1c7da902b",
+      "name": "Wings & Strips",
+      "hurl": "wings-strips",
+      "items": [
+        {
+          "id": "69207423d4e9b4346b5a88f8",
+          "name": "Teriyaki Wings",
+          "description": {
+            "cs": "Šťavnatá kuřecí křidélka marinovaná ve výrazném koření, pomalu pečená dozlatova a poté obalená v lahodné sladko-slané teriyaki omáčce. Na závěr posypaná praženým sezamem pro dokonalou chuť i vůni. Ideální volba pro milovníky asijských chutí, kteří si chtějí dopřát něco opravdu neodolatelného",
+            "en": "Juicy chicken wings marinated in bold spices, slow-roasted until golden, then coated in a delicious sweet-savory teriyaki sauce. Finished with toasted sesame for perfect flavor and aroma. A great pick for lovers of Asian flavors who want something truly irresistible."
+          },
+          "price": 119,
+          "image": "https://mr-burger.cz/wp-content/uploads/2026/01/Teriyaki-wings.png",
+          "weight": "",
+          "categoryId": "69207422090168e1c7da902b",
+          "position": 2,
+          "allergens": [
+            1,
+            2,
+            4,
+            6,
+            11
+          ]
+        },
+        {
+          "id": "69207423d4e9b4346b5a88f9",
+          "name": "Bufallo wings",
+          "description": {
+            "cs": "Křupavá kuřecí křidélka obalená v ikonické pikantní Buffalo domací omáčce s výraznou chutí chilli a másla. Dokonale šťavnatá uvnitř, pořádně ostrá navenek – přesně tak, jak to má být. Ideální volba pro ty, kteří milují výrazné, pálivé chutě a pořádnou dávku americké klasiky",
+            "en": "Crispy chicken wings coated in the iconic spicy homemade Buffalo sauce with bold chili and butter flavor. Perfectly juicy inside, properly hot outside — exactly how it should be. The right pick for anyone who loves bold, fiery flavors and a solid hit of American classic."
+          },
+          "price": 119,
+          "image": "https://mr-burger.cz/wp-content/uploads/2026/01/Bufalo-Wings-1.png",
+          "weight": "",
+          "categoryId": "69207422090168e1c7da902b",
+          "position": 5,
+          "allergens": []
+        },
+        {
+          "id": "69207423d4e9b4346b5a88fb",
+          "name": "BBQ Wings",
+          "description": {
+            "cs": "",
+            "en": ""
+          },
+          "price": 119,
+          "image": "https://mr-burger.cz/wp-content/uploads/2026/01/BBQ-Wings.png",
+          "weight": "",
+          "categoryId": "69207422090168e1c7da902b",
+          "position": 8,
+          "allergens": []
+        },
+        {
+          "id": "69207423d4e9b4346b5a88fe",
+          "name": "Korean Style Wings",
+          "description": {
+            "cs": "Křupavá kuřecí křidélka v korejském stylu, obalená v našem domácím sladko-pálivém umaku. Šťavnaté maso, lesklá glazura plná chuti a jemná rovnováha sladkosti a pikantnosti vytváří neodolatelný zážitek v každém soustu. Ideální volba pro milovníky výrazných chutí a autentické korejské kuchyně.",
+            "en": "Crispy Korean-style chicken wings coated in our homemade sweet-and-spicy glaze. Juicy meat, a glossy flavor-packed coating and a gentle balance of sweet and spicy make for an irresistible experience in every bite. A great pick for lovers of bold flavors and authentic Korean cuisine."
+          },
+          "price": 119,
+          "image": "https://mr-burger.cz/wp-content/uploads/2026/01/Korean-style-wings.png",
+          "weight": "",
+          "categoryId": "69207422090168e1c7da902b",
+          "position": 11,
+          "allergens": [
+            1,
+            2,
+            6,
+            11
+          ]
+        },
+        {
+          "id": "69207423d4e9b4346b5a88fd",
+          "name": "Strips",
+          "description": {
+            "cs": "Zlatavé kuřecí stripsy, křupavé zvenku a šťavnaté uvnitř – ideální na namáčení i sdílení.",
+            "en": "Golden chicken strips, crispy outside and juicy inside — perfect for dipping or sharing."
+          },
+          "price": 109,
+          "image": "https://mr-burger.cz/wp-content/uploads/2026/01/Strips.png",
+          "weight": "",
+          "categoryId": "69207422090168e1c7da902b",
+          "position": 12,
+          "allergens": []
+        }
+      ]
+    },
+    {
+      "id": "69207422090168e1c7da9027",
+      "name": "Sauces",
+      "hurl": "sauces",
+      "items": [
+        {
+          "id": "69207423d4e9b4346b5a88fa",
+          "name": "Ketchup",
+          "description": {
+            "cs": "",
+            "en": ""
+          },
+          "price": 39,
+          "image": null,
+          "weight": "",
+          "categoryId": "69207422090168e1c7da9027",
+          "position": 0,
+          "allergens": [
+            3,
+            7,
+            10
+          ]
+        },
+        {
+          "id": "69207423d4e9b4346b5a88f4",
+          "name": "Spicy Chilly",
+          "description": {
+            "cs": "",
+            "en": ""
+          },
+          "price": 39,
+          "image": null,
+          "weight": "",
+          "categoryId": "69207422090168e1c7da9027",
+          "position": 1,
+          "allergens": [
+            3,
+            7,
+            10
+          ]
+        },
+        {
+          "id": "69207423d4e9b4346b5a88f7",
+          "name": "Spicy Mayo",
+          "description": {
+            "cs": "",
+            "en": ""
+          },
+          "price": 39,
+          "image": null,
+          "weight": "",
+          "categoryId": "69207422090168e1c7da9027",
+          "position": 2,
+          "allergens": [
+            3,
+            7,
+            10
+          ]
+        },
+        {
+          "id": "69207423d4e9b4346b5a8900",
+          "name": "MrBurger",
+          "description": {
+            "cs": "",
+            "en": ""
+          },
+          "price": 39,
+          "image": null,
+          "weight": "",
+          "categoryId": "69207422090168e1c7da9027",
+          "position": 3,
+          "allergens": [
+            3,
+            7,
+            10
+          ]
+        },
+        {
+          "id": "69207423d4e9b4346b5a8901",
+          "name": "BBQ",
+          "description": {
+            "cs": "",
+            "en": ""
+          },
+          "price": 39,
+          "image": null,
+          "weight": "",
+          "categoryId": "69207422090168e1c7da9027",
+          "position": 4,
+          "allergens": [
+            3,
+            7,
+            10
+          ]
+        },
+        {
+          "id": "69207423d4e9b4346b5a88f6",
+          "name": "Korean",
+          "description": {
+            "cs": "",
+            "en": ""
+          },
+          "price": 39,
+          "image": null,
+          "weight": "",
+          "categoryId": "69207422090168e1c7da9027",
+          "position": 5,
+          "allergens": [
+            3,
+            7,
+            10
+          ]
+        },
+        {
+          "id": "69207423d4e9b4346b5a8902",
+          "name": "Mayonnaise",
+          "description": {
+            "cs": "",
+            "en": ""
+          },
+          "price": 39,
+          "image": null,
+          "weight": "",
+          "categoryId": "69207422090168e1c7da9027",
+          "position": 6,
+          "allergens": [
+            3,
+            7,
+            10
+          ]
+        }
+      ]
+    }
+  ]
+}
